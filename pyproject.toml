@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowstructnet"
+version = "0.1.0"
+description = "Reproducibility packaging for FlowStructNet"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [{ name = "yhcho0405" }]
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "torch",
+  "scapy",
+  "tqdm"
+]
+
+[project.scripts]
+flowstructnet-convert = "flowstructnet.convert:main"
+flowstructnet-train = "flowstructnet.train_flowstructnet_classifier:main"
+flowstructnet-eval  = "flowstructnet.eval_flowstructnet_metrics:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flowstructnet*"]

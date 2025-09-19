@@ -1,0 +1,63 @@
+annotated-types==0.7.0
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1754231422783/work/certifi
+cftime @ file:///home/conda/feedstock_root/build_artifacts/cftime_1756511817112/work
+cmake==4.1.0
+contourpy==1.3.2
+cycler==0.12.1
+einops==0.8.1
+filelock==3.13.1
+flash_attn==2.8.0.post2
+flashfftconv @ git+https://github.com/HazyResearch/flash-fft-conv.git@b8771028717f46d5b22cbb8e12833f35033d621b
+fonttools==4.59.2
+fsspec==2024.6.1
+importlib_metadata==8.7.0
+Jinja2==3.1.4
+kiwisolver==1.4.9
+markdown-it-py==4.0.0
+MarkupSafe==2.1.5
+matplotlib==3.10.6
+mdurl==0.1.2
+monarch_cuda @ git+https://github.com/HazyResearch/flash-fft-conv.git@b8771028717f46d5b22cbb8e12833f35033d621b#subdirectory=csrc/flashfftconv
+mpmath==1.3.0
+netCDF4 @ file:///home/conda/feedstock_root/build_artifacts/netcdf4_1756898321271/work
+networkx==3.3
+ninja==1.13.0
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1747544640217/work/dist/numpy-2.2.6-cp310-cp310-linux_x86_64.whl#sha256=d6d964caeef85d00073d27cd62b46883d275b3d8162f723f0fcabbd0b3cc3f9d
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-nccl-cu12==2.21.5
+nvidia-nvjitlink-cu12==12.9.86
+nvidia-nvtx-cu12==12.1.105
+packaging==25.0
+pillow==11.0.0
+psutil==7.0.0
+pyarrow==21.0.0
+pybind11==3.0.1
+pydantic==2.11.9
+pydantic_core==2.33.2
+Pygments==2.19.2
+pyparsing==3.2.4
+python-dateutil==2.9.0.post0
+PyYAML==6.0.2
+rich==14.1.0
+scapy==2.6.1
+six==1.17.0
+sympy==1.13.1
+torch==2.5.1+cu121
+torchaudio==2.5.1+cu121
+torchvision==0.20.1+cu121
+tqdm==4.67.1
+transformer_engine==2.6.0.post1
+transformer_engine_cu12==2.6.0.post1
+triton==3.1.0
+typing-inspection==0.4.1
+typing_extensions==4.12.2
+-e git+https://github.com/Zymrael/vortex.git@3e2511427794d02f46e464bc34a8895c9b911e76#egg=vtx
+zipp==3.23.0

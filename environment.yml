@@ -1,0 +1,6 @@
+name: fsn
+channels:
+  - conda-forge
+dependencies:
+  - netcdf4
+  - python=3.10
