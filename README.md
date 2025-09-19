@@ -10,6 +10,19 @@ pip install -e .
 Public dataset folder (Google Drive):
 - https://drive.google.com/drive/folders/1BUo5TMRuXNvTqNYy0RLeHk4l4Q3BuzSk
 
+## Dataset Split(Required)
+
+```python
+# Splitter: https://github.com/SmartData-Polito/Debunk_Traffic_Representation/blob/master/process_finetune_data/Split/per-flow-split/flow_classification/split_based_flow.ipynb
+
+dataset = 'tls'
+dataset_path = './data/raw/TLS/sessions'
+output_path  = './data/flows/TLS/flow' 
+k = 3          # K-fold
+threshold = 5
+```
+> paper: https://dl.acm.org/doi/10.1145/3718958.3750498
+
 ## Convert PCAP → JSONL
 ```bash
 flowstructnet-convert   --input /path/to/pcap_root   --output /path/to/out_dir   --max-ctx-tokens 4096   --workers 8 --resume
